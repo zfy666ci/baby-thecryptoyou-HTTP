@@ -391,17 +391,7 @@ app.get("/approve",(req,res)=>{
 
 })
 
-app.get("/my",(req,res)=>{
-    
-    var resule=havacontract.methods.pendingRewardOfUser('0xFC4C99a58E9257D387C197B97529e6e847B0A159').call()
-    resule.then( function( result ) {
-    
-    res.send(web3.utils.fromWei(result,'ether'));
-    }).catch(function (error){
-    res.send("no")
-    })
-    
-    })
+
 
 app.get("/HarvestAll",(req,res)=>{
 
