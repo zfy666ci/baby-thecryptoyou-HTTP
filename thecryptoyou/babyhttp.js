@@ -20,7 +20,7 @@ var Erccontract  =new web3.eth.Contract(erc20,Babytoken);
 var despcontract  =new web3.eth.Contract(markabi,Marktoken);
 var havacontract  =new web3.eth.Contract(HavaABI,Marktoken);
  
-havacontract.methods.stakeInfoOfUser('0xFC4C99a58E9257D387C197B97529e6e847B0A159').call().then(console.log)
+
 
 
 app.listen(8000, () => { 
