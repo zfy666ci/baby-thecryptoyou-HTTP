@@ -11,7 +11,7 @@ const express = require('express')
 const app = express()
 
 
-const web3 = new Web3('https://temp2.china.bsc.node.web3rpc.com');
+const web3 = new Web3('https://bsc-dataseed.binance.org');
 const Open_cardToken = '0x0A32f45a6897d8f4Bf8aD0a45030b49517caf72b';
 const Babytoken='0x53e562b9b7e5e94b81f10e96ee70ad06df3d2657';
 const Marktoken='0x9447e3eD2A23572F7Be359216321f7e67B364BaC';
